@@ -7,7 +7,7 @@ import (
 	"time"
 
 	websocket "github.com/gorilla/websocket"
-	slack "github.com/slack-go/slack"
+	slack "github.com/jc21/slack"
 )
 
 func (sts *Server) queueForWebsocket(s, hubname string) {
